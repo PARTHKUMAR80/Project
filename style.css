@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* header */
+
+header{
+    border: 1px solid blue;
+    background-color: blue;
+    display: flex;
+}
+.logoo-div{
+    flex-grow: 1;
+    color: white;
+}
+.logoo-div h1{
+    padding-left: 20px;
+}
+
+.sectionss-div-2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.sectionss-div-2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionss-div-2 div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+#download-link a{
+    border-radius: 10px;
+    padding: 2px;
+    color: blue;
+    background-color: white;
+}
+#download-link img{
+    height: 30px;
+    width: 30px;
+}
+
+/* first section */
+
+.firstt-section{
+    display: flex;
+}
+.firstt-section div{
+    width: 50%;
+}
+.firstt-section div h1{
+    font-size: 5rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.firstt-section div p{
+    font-size: 1.8rem;
+    padding-left: 20px;
+    margin-bottom: -20px;
+}
+.firstt-section div img{
+    height: 100%;
+    width: 100%;
+}
+.firstt-section div h1:nth-child(1){
+    margin-bottom: -70px;
+}
+.firstt-section div h1:nth-child(2){
+    margin-bottom: -10px;
+}
+
+/* second section */
+
+.secondd-section h1{
+    font-size: 5rem;
+    text-align: right;
+    padding-right: 80px;
+}
+.secondd-section h1:nth-child(1){
+    margin-bottom: -50px;
+}
+.secondd-sec-div{
+    margin-top: -40px;
+    display: flex;
+}
+.secondd-sec-div img{
+    height: 100%;
+    width: 100%;
+}
+.secondd-sec-div div{
+    flex-grow: 1;
+}
+.paraa-div{
+    text-align: right;
+    padding-right: 80px;
+}
+.paraa-div p{
+    font-size: 2rem;
+    margin-bottom: -30px;
+}
+
+/* media queries */
+
+@media (max-width:714px){
+    .logoo-div{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .logoo-div h1{
+        font-size: 1.2rem;
+    }
+    .sectionss-div-2 div a{
+        font-size: 1rem;
+    }
+    #download-link img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (max-width:568px){
+    .logoo-div h1{
+        font-size: 1rem;
+    }
+    .sectionss-div ul li a{
+        font-size: 0.7rem;
+    }
+    .sectionss-div ul li a img{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media (max-width:332px){
+    header{
+        display: block;
+    }
+    .logoo-div{
+        display: block;
+    }
+    .logoo-div h1{
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .sectionss-div{
+        display: none;
+    }
+    .sectionss-div-2{
+        display: flex !important;
+        justify-content: space-evenly;
+    }
+    .sectionss-div-2 div a{
+        color: white;
+        font-size: 0.8rem;
+    }
+    #download-link{
+        background-color: white;
+        color: black;
+    }
+    #download-link{
+        padding: 2px;
+        border-radius: 4px;
+    }
+    #download-link a{
+        color: blue;
+    }
+    #download-link img{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media (max-width:259px){
+    .sectionss-div-2 div a{
+        font-size: 0.5rem;
+    }
+    #download-link img{
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media (max-width:965px){
+    .firstt-section div h1{
+        font-size: 3rem;
+    }
+    .firstt-section div h1:nth-child(1){
+        margin-bottom: -30px;
+    }
+    .firstt-section div h1:nth-child(2){
+        margin-bottom: -10px;
+    }
+    .firstt-section div p{
+        font-size: 1.4rem;
+    }
+    .secondd-section h1{
+        font-size: 3rem;
+    }
+    .secondd-section h1:nth-child(1){
+        margin-bottom: -20px;
+    }
+    .secondd-section div p{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:753px){
+    .firstt-section div h1{
+        font-size: 2rem;
+    }
+    .firstt-section div h1:nth-child(1){
+        margin-bottom: -20px;
+    }
+    .firstt-section div h1:nth-child(2){
+        margin-bottom: -5px;
+    }
+    .firstt-section div p{
+        font-size: 1rem;
+    }
+    .secondd-section h1{
+        font-size: 2rem;
+        padding-right: 10px;
+    }
+    .secondd-section h1:nth-child(1){
+        margin-bottom: -10px;
+    }
+    .secondd-section div p{
+        font-size: 1rem;
+    }
+    .paraa-div{
+        padding-right: 10px;
+    }
+    .paraa-div p{
+        margin-bottom: -10px;
+    }
+}
+@media (max-width:543px){
+    .firstt-section div h1{
+        font-size: 1.7rem;
+    }
+    .firstt-section div h1:nth-child(1){
+        margin-bottom: -20px;
+    }
+    .firstt-section div h1:nth-child(2){
+        margin-bottom: -5px;
+    }
+    .firstt-section div p{
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+    .secondd-section h1{
+        font-size: 1.7rem;
+        padding-right: 10px;
+    }
+    .secondd-section h1:nth-child(1){
+        margin-bottom: 0px;
+    }
+    .secondd-section h1:nth-child(2){
+        margin-bottom: 40px;
+    }
+    .secondd-section div p{
+        font-size: 0.9rem;
+    }
+    .paraa-div{
+        padding-right: 10px;
+    }
+    .paraa-div p{
+        margin-bottom: -10px;
+    }
+}
+@media (max-width:267px){
+    .firstt-section div h1{
+        font-size: 1.3rem;
+    }
+    .firstt-section div h1:nth-child(1){
+        margin-bottom: -20px;
+    }
+    .firstt-section div h1:nth-child(2){
+        margin-bottom: -3px;
+    }
+    .firstt-section div p{
+        font-size: 0.5rem;
+        margin-bottom: 0px;
+    }
+    .secondd-section h1{
+        font-size: 1.3rem;
+        padding-right: 10px;
+    }
+    .secondd-section h1:nth-child(1){
+        margin-bottom: 0px;
+    }
+    .secondd-section h1:nth-child(2){
+        margin-bottom: 40px;
+    }
+    .secondd-section div p{
+        font-size: 0.5rem;
+    }
+    .paraa-div{
+        padding-right: 10px;
+    }
+    .paraa-div p{
+        margin-bottom: -10px;
+    }
+}
+
+
+
+
+
+
+
+
+
